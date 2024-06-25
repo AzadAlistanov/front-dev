@@ -1,0 +1,121 @@
+@media (min-width: 320px) and (max-width: 1080px) {
+  .up_bar_and_content_block {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .left_bar_block {
+    /*display: none;*/
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    position: absolute;
+    top: 0px;
+    /* left: -145px; */
+    /* overflow-y: auto; */
+  }
+
+  .up_bar_block {
+    width: 100vw;
+  }
+
+  .search_block {
+    left: -50px;
+    width: 159px;
+  }
+
+  .other_main {
+    display: none;
+  }
+
+  .burger_manu_button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    width: 60px;
+  }
+
+  .dark_block {
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 4;
+    height: -webkit-calc(100% - 65px);
+    height: -moz-calc(100% - 65px);
+    height: calc(100% - 65px);
+    width: 100%;
+  }
+
+
+
+  ::-webkit-calendar-picker-indicator {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 380px) {
+  .search_image {
+    display: none;
+  }
+
+  .search_input_text {
+    width: 200px;
+    padding-left: 25px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 1081px) and (max-width: 1965px) {
+  .bday_info {
+    font-size: 16px;
+  }
+
+  .happy_bday_wrapper {
+    width: 35vw;
+    left: 35%;
+    height: 35vh;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1080px) {
+  .bday_info {
+    font-size: 16px;
+  }
+
+  .happy_bday_wrapper {
+    width: 35vw;
+    left: 35%;
+    height: 45vh;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 380px) {
+  .bday_info {
+    font-size: 12px;
+  }
+
+  .happy_bday_wrapper {
+    width: 55vw;
+    left: 23%;
+    height: 45vh;
+  }
+
+  .bday_button {
+    width: 170px;
+  }
+}
